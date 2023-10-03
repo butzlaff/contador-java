@@ -2,6 +2,15 @@ package personal.projeto.contador;
 
 import java.util.Scanner;
 
+/**
+ * Este programa recebe dois números inteiros a diferença do segundo paramêtro pelo primeiro.
+ * Caso o segundo paramêtro seja menor que o primeiro, o programa lança uma exceção.
+ * Caso seja digitado valores que não sejam inteiros, o programa lança uma exceção.
+ * 
+ * @author Emilio Butzlaff
+ * @version 1.0
+ */
+
 public class Contador {
   public static void main(String[] args) {
     try {
@@ -28,7 +37,7 @@ public class Contador {
       throw new ParametrosInvalidosException();
     }
     int cont = fim - inicio;
-    for (int i = 0; i <= cont; i++) {
+    for (int i = 1; i <= cont; i++) {
       System.out.println(i);
     }
   }
