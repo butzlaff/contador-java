@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"personal.projeto.contador","l":"Contador"},{"p":"personal.projeto.contador","l":"ParametrosInvalidosException"}]
